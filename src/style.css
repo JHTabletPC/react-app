@@ -1,0 +1,98 @@
+/* style.css */
+
+  h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 45px;
+    }
+  
+    /* header 스타일 */
+  header {
+    background-color: #c3c4ff;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면 전체 높이만큼 세로 중앙 정렬 */
+  }
+  
+  /* 이미지에 대한 스타일 */
+  img {
+    max-width: 100%; /* 이미지 최대 너비 설정 */
+    max-height: 100%; /* 이미지 최대 높이 설정 */
+    object-fit: contain; /* 이미지 비율 유지 */
+  }
+
+  /* nav 스타일 */
+  nav {
+    border: 1px solid rgb(207, 27, 27);
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  /* nav 내 ol 스타일 */
+  nav ol {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  /* nav 내 li 스타일 */
+  nav li {
+    margin-bottom: 5px;
+  }
+  
+  /* article 스타일 */
+  article {
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* h2 스타일 */
+  article h2 {
+    text-align: center;
+    color: #02397e;
+  }
+  
+  /* ButtonGroup 스타일 */
+  .ButtonGroup {
+    margin-top: 20px;
+  }
+  
+  /* Button 스타일 */
+  .Button {
+    margin-right: 10px;
+  }
+  
+  /* Dialog 스타일 */
+  .Dialog {
+    padding: 20px;
+  }
+  
+  /* DialogTitle 스타일 */
+  .DialogTitle {
+    background-color: #83aedd;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  /* DialogContent 스타일 */
+  .DialogContent {
+    padding: 20px;
+  }
+  
+  /* DialogActions 스타일 */
+  .DialogActions {
+    padding: 10px;
+    text-align: right;
+  }
